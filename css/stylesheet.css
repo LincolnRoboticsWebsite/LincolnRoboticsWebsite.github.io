@@ -15,7 +15,6 @@ time, mark, audio, video, a {
   margin: 0;
   padding: 0;
   border: 0;
-  color: white;
   font-size: 100%;
   vertical-align: baseline;
   
@@ -38,7 +37,7 @@ body{
 	justify-content: space-between;
 	z-index: 9999;
 }
-a .nav_bar{
+.nav_bar{
 	box-sizing: border-box;
 	width: 20vw;
 	padding-top: 1vh;
@@ -47,17 +46,15 @@ a .nav_bar{
 	background-color: #333333;	
 	border: 5px double #2a2a2a;
 	transition: 0.3s ease;
-}
-a .nav_bar{
+
 	font-size: 3vh;
 	color: white;
 }
-a .nav_bar:hover{
+.nav_bar:hover{
 	background-color: #000000;
 	border-color: #000000;
 	cursor: pointer;
 }
-
 /*End of navbar CSS*/
 
 /*Start of site body setup*/
