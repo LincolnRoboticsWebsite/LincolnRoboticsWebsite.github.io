@@ -68,9 +68,18 @@ body{
 	margin-bottom: 0;
 	padding-right: 3%;
 }
-.sidebars{
+.sidebar{
 	width: 10%;
 	padding: 1%;
+	border: 1px solid gold;
+	text-align:justify;
+}
+#tips_and_tricks{
+	font-size: 2vw;
+	font-weight: 600;
+}
+#tip_or_trick{
+	font-size: 1.2vw;
 }
 /*End of site body setup*/
 /*Start of slideshow CSS*/
