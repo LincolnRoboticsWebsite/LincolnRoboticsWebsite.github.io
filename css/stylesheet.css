@@ -47,11 +47,11 @@ body{
 	border: 5px double #2a2a2a;
 	transition: 0.3s ease;
 }
-.nav_bar a{
+a .nav_bar{
 	font-size: 3vh;
 	color: white;
 }
-.nav_bar:hover{
+a .nav_bar:hover{
 	background-color: #000000;
 	border-color: #000000;
 	cursor: pointer;
