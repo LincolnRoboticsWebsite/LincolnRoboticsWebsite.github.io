@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<title>LHS Robotics Website - home</title>
+		<link rel="icon" href="media/cards.png" type="image/png" sizes="16x16">
+		<link href = "css/stylesheet.css" type = "text/css" rel = "stylesheet">
+		<script src = "scripts/slideshow.js"></script>
+		<script src = "scripts/onClickDiv.js"></script>
+		<meta charset = "UTF-8">
+		<!--Website made by Will McCormick & Jonathan Zhao-->
+	</head>
+	
+	<body onload = "dispSlide(0); carousel(); onClickHome(); onClickTeam(); onClickMentors(); onClickDonate(); onClickAbout();"><!--It isn't fully implemented yet-->
+		<!--Start of navigation bar, this won't change from page to page-->
+		<div id = "nav_bar">
+			<div id = "Home_nav" class = "nav_bar onmousedown = "><a href="index.html" >Home</a></div>
+			<div id = "Teams_nav" class = "nav_bar"><a href = "teams.html">Teams</a></div>
+			<div id = "Mentors_nav" class = "nav_bar"><a href = "mentors.html">Mentors</a></div>
+			<div id = "Donors_nav" class = "nav_bar"><a href = "donate.html">Donate</a></div>
+			<div id = "About_nav" class = "nav_bar"><a href = "about.html">About</a></div>
+		</div>
+		<!--End of navigation bar-->
+		<!--Start of website content, this will change from page to page-->
+		<div id = "site_body">
+			<!--Start of sidebars-->
+			<div class = "sidebars">
+				<h1 style = "font-size: 20px">TIPS AND TRICKS</h1>
+				<br>
+				<p>"Use a particle skirt on the side of your drivetrain to prevent particles from getting inside your gearing!"<br>- Casey Pickett</p>
+			</div>
+			
+			<!--End of sidebars-->
+			
+			<!--Start of main body-->
+			
+			<div id = "Home">
+				
+				<br><br>
+				
+				<h1 id = "introText">Lincoln Robotics</h1>
+				
+				<!--Start of slideshow-->
+				
+				<div id = "slideshow">
+				
+					<div class = "slide_image fade">
+						
+						<div class = "imagebg"><img class = "slide" src = "media/1.jpg" style = "width: 25.3125vw; height: 33.75vw;"></div>
+						
+					</div>
+					
+					<div class = "slide_image fade">
+						
+						<div class = "imagebg"><img class = "slide" src = "media/2.jpg" style = "width: 45vw; height: 33.75vw;"></div>
+						
+					</div>
+					
+					<div class = "slide_image fade">
+						
+						<div class = "imagebg"><img class = "slide" src = "media/3.jpg" style = "width: 45vw; height: 33.75vw;"></div>
+						
+					</div>
+					
+					<div class = "slide_image fade">
+						
+						<div class = "imagebg"><img class = "slide" src = "media/4.jpg" style = "width: 45vw; height: 33.75vw;"></div>
+						
+					</div>
+					
+					<div class = "slide_image fade">
+						
+						<div class = "imagebg"><img class = "slide" src = "media/5.jpg" style = "width: 25.3125vw; height: 33.75vw;"></div>
+						
+					</div>
+					
+					<div class = "slide_image fade">
+						
+						<div class = "imagebg"><img class = "slide" src = "media/6.jpg" style = "width: 45vw; height: 33.75vw;"></div>
+						
+					</div>
+					
+					<div class = "slide_image fade">
+						
+						<div class = "imagebg"><img class = "slide" src = "media/7.jpg" style = "width: 25.3125vw; height: 33.75vw;"></div>
+						
+					</div>
+					
+					<div class = "slide_image fade">
+						
+						<div class = "imagebg"><img class = "slide" src = "media/8.jpg" style = "width: 45vw; height: 33.75vw;"></div>
+						
+					</div>
+					
+					<div class = "slide_image fade">
+					
+						<div class = "imagebg"><img class = "slide" src = "media/9.jpg" style = "width: 50vw; height: 18.5897vw"></div>
+						
+					</div>
+					
+					<div class = "slide_image fade">
+						
+						<div class = "imagebg"><img class = "slide" src = "media/10.jpg" style = "width: 36.7344vw; height: 33.75vw;"></div>
+						
+					</div>
+					
+					<div class = "slide_image fade">
+						
+						<div class = "imagebg"><img class = "slide" src = "media/11.jpg" style = "width: 50vw; height: 28.1208vw;"></div>
+						
+					</div>
+					
+					<a id = "prev" onclick = "plusSlides(-1)">&#10094;</a>
+					
+					<a id = "next" onclick = "plusSlides(1)">&#10095;</a>
+					
+				</div>
+				
+				<br>
+				
+				<div style = "text-align: center;">
+					
+					<span class = "dot" onclick = "dispSlide(1)"></span>
+					<span class = "dot" onclick = "dispSlide(2)"></span>
+					<span class = "dot" onclick = "dispSlide(3)"></span>
+					<span class = "dot" onclick = "dispSlide(4)"></span>
+					<span class = "dot" onclick = "dispSlide(5)"></span>
+					<span class = "dot" onclick = "dispSlide(6)"></span>
+					<span class = "dot" onclick = "dispSlide(7)"></span>
+					<span class = "dot" onclick = "dispSlide(8)"></span>
+					<span class = "dot" onclick = "dispSlide(9)"></span>
+					<span class = "dot" onclick = "dispSlide(10)"></span>
+					<span class = "dot" onclick = "dispSlide(11)"></span>
+				
+				</div>
+				
+				<!--End of slideshow-->
+				
+				<br><br><br>
+				
+				<!--Start of calendar-->
+				
+				<h2 id = "calendarText">2018-2019 Season Calendar</h2>
+				
+				<hr style = "margin-left: 13vw; margin-right: 13vw;">
+				
+				<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=jzhao9957%40apps4pps.net&amp;color=%231B887A&amp;ctz=America%2FLos_Angeles"
+				style="border-width:0; display: block; margin: 0 auto; margin-top: 1vw;" width = "60%" height = "600" frameborder = "0" scrolling = "no"></iframe>
+				
+				<!--End of calendar-->
+				
+				<br><br>
+				
+			</div>
+			
+			<!--End of main body-->
+
+		</div>
+		
+		<!--End of website content-->
+		
+		<!--Start of contact info-->
+		
+		<div id = "contact_info">
+		
+			<h1>1600 SW Salmon Street, Portland, OR 97205</h1>
+			
+			<h1>Call us:&ensp;<a id = "phone" href = "tel:9718081371">971-808-1371</a></h1> <!-- same here-->
+			
+			<h1>Email us:&ensp;<a id = "email" href = "mailto:lincolnhighschoolrobotics@gmail.com">lincolnhighschoolrobotics@gmail.com<a/></h1>
+			
+		</div>
+		
+		<!--End of contact info-->
+		
+	</body>
+	
+</html>
