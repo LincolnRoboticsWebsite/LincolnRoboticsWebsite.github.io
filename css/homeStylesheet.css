@@ -1,5 +1,10 @@
 /*Lincoln red color: #C03526;*/
 /*Start of site body setup*/
+#site_body{
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
 #Home{
 	width: 85%;
 	margin-top: 0;

@@ -56,13 +56,6 @@ body{
 	cursor: pointer;
 }
 /*End of navbar CSS*/
-/*Start of site body setup*/
-#site_body{
-	padding: 0;
-	display: flex;
-	justify-content: space-between;
-}
-/*End of site body setup*/
 /*Start of contact info*/
 #contact_info{
 	bottom: 0;

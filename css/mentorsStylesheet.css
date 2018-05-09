@@ -1,1 +1,29 @@
 /*Lincoln red color: #C03526;*/
+/*Start of site body setup*/
+#site_body{
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+}
+.mentor{
+	padding: 0;
+	margin: 0;
+	border: 1px solid red;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.pic{
+	padding: 0;
+	margin: 15px;
+	border: 1px solid purple;
+}
+.pic > img{
+	width:400px;
+}
+.list{
+	padding: 0;
+	margin: 0;
+	border: 1px solid green;
+}
+/*End of site body setup*/
