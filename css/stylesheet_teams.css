@@ -1,0 +1,42 @@
+/*Lincoln red color: #C03526;*/
+#site_body{
+	padding: 0;
+	display: flex;
+}
+.teams{
+	display: flex;
+	flex-flow: row nowrap;
+	border: 5px solid blue;
+}
+.team_image1{
+	border: 5px solid pink;
+	width: 45vw;
+}
+.team_image2{
+	width: 100%;
+}
+.team_description1{
+	border: 5px solid purple;
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 1.8vw;
+}
+.team_name{
+	width: 100%;
+	border: 5px solid green;
+	text-align: center;
+	font-size: 4vw;
+	font-weight: 800;
+}
+.team_description2{
+	border: 5px solid red;
+	display: flex;
+	flex-wrap: row nowrap;
+}
+.team_members{
+	border: 5px solid yellow;
+	width: 14vw;
+}
+.team_blurb{
+	border: 5px solid orange;
+}
