@@ -8,9 +8,12 @@
 	flex-flow: row nowrap;
 	border: 5px solid blue;
 }
-.team_image{
+.team_image1{
 	border: 5px solid pink;
-	width: 30vw;
+	width: 45vw;
+}
+.team_image2{
+	width: 100%;
 }
 .team_description1{
 	border: 5px solid purple;
@@ -32,7 +35,7 @@
 }
 .team_members{
 	border: 5px solid yellow;
-	width: 12vw;
+	width: 14vw;
 }
 .team_blurb{
 	border: 5px solid orange;
