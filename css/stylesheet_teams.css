@@ -11,9 +11,20 @@
 .team_image1{
 	border: 5px solid pink;
 	width: 45vw;
+	display:flex;
+	flex-flow: column nowrap;
 }
-.team_image2{
+.team_image2{	
+	height: 90%;
+}
+.filler{
+	height:100%;
+}
+.team_image3{
 	width: 100%;
+	margin: 0;
+    vertical-align: middle;
+	height: 100%;
 }
 .team_description1{
 	border: 5px solid purple;
