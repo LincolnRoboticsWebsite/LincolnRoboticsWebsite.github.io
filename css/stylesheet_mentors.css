@@ -13,7 +13,7 @@
 	flex-direction: row;
 	justify-content: space-evenly;
 	background-color: #d1d1d1;
-	border: 5px inset #c5c5c5;
+	border: 2px solid #C03526;
 }
 .pic{
 	padding: 0;
@@ -38,7 +38,7 @@
 }
 .list > p{
 	color: black;
-	font-size: 18px;
+	font-size: 22px;
 	margin: 2%;
 	margin-top: 1%;
 }
