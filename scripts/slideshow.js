@@ -26,7 +26,7 @@ function carousel() {
 	var i;
 	var slides = document.getElementsByClassName("slide_image");
 	var dots = document.getElementsByClassName("dot");
-	if (slideIndex > slides.length + 1) {slideIndex = 1}
+	if (slideIndex > slides.length) {slideIndex = 1}
 	
 	for (i = 0; i < slides.length; i++) {
 		slides[i].style.display = "none";
