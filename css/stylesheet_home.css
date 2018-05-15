@@ -14,7 +14,7 @@
 .sidebar{
 	width: 10%;
 	padding: 1%;
-	border: 1px solid gold;
+	border-right: 1px solid gold;
 	text-align:justify;
 }
 #tips_and_tricks{
