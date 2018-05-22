@@ -48,18 +48,18 @@
 	margin-left: 5%;
 	margin-top: 1%;
 }
-.fade{
+/*.fade{
 	position: absolute;
 	opacity: 0;
 	transform: translateY(-101%);
 }
 /*End of site body setup*/
 /*Animations*/
-.fade:hover{
+/*.fade:hover{
 	animation-name: fade;
 	animation-duration: 15.0s;
 }
 @keyframes fade{
 	from {opacity: 0}
 	to {opacity: 1}
-}
+}*/
