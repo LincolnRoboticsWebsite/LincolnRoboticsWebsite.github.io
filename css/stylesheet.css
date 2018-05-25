@@ -1,3 +1,12 @@
+/*@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('../fonts/bebasneue-regular.woff2') format('woff2'),
+		 url('../fonts/bebasneue-regular.woff') format('woff'),
+		 url('../fonts/bebasneue-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}*/
+
 /* http://meyerweb.com/eric/tools/css/reset/ */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -21,7 +30,7 @@ time, mark, audio, video, a {
   /*Lincoln red color: #C03526;*/
   
   text-decoration: none;
-  font-family:"Arial";
+  font-family: 'arial';
 }
 /*@font-family{
  Whatever font that Max wants
