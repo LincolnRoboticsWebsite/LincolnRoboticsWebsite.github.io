@@ -6,16 +6,18 @@
 	justify-content: space-between;
 }
 #Home{
-	width: 85%;
+	width: 100%;
 	margin-top: 0;
 	margin-bottom: 0;
-	padding-right: 3%;
+	padding-right: 10%;
 }
 .sidebar{
 	width: 10%;
 	padding: 1%;
 	border-right: 1px solid gold;
 	text-align: left;
+	transform: translateX(-99%);
+	transition: 1s ease;
 }
 #tips_and_tricks{
 	font-size: 2vw;
@@ -23,6 +25,9 @@
 }
 #tip_or_trick{
 	font-size: 1.2vw;
+}
+.sidebar:hover{
+	transform: translateX(0%);
 }
 /*End of site body setup*/
 /*Start of slideshow CSS*/

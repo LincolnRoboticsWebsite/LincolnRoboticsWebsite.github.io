@@ -48,6 +48,8 @@ body{
 	background-color: #333333;
 	justify-content: space-between;
 	z-index: 9999;
+	animation-name: grow;
+	animation-duration: 0.5s;
 }
 .nav_bar{
 	box-sizing: border-box;
@@ -58,9 +60,10 @@ body{
 	background-color: #333333;	
 	border: 5px double #2a2a2a;
 	transition: 0.3s ease;
-
 	font-size: 3vh;
 	color: white;
+	animation-name: font;
+	animation-duration: 0.5s;
 }
 .nav_bar:hover{
 	background-color: #000000;
@@ -85,3 +88,12 @@ body{
 	color: white;
 }
 /*End of contact info*/
+/*Animations*/
+@keyframes grow{
+	from {width: 0%}
+	to {width: 100%}
+}
+@keyframes font{
+	from {font-size: 0vh}
+	to {font-size: 3vh}
+}
