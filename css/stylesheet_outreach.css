@@ -25,6 +25,7 @@
 }
 h1{
 	text-align:center;
+	font-size: 3vw;
 }
 .box{
 	border: 2px solid #C03526;
@@ -41,4 +42,7 @@ h1{
 }
 .button:active{
 	background-color: #C03526;
+}
+.text{
+		font-size: 2vw;
 }
