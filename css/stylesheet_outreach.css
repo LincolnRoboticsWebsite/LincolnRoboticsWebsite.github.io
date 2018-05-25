@@ -27,7 +27,16 @@ h1{
 #Events{
 	background-color: #d1d1d1;
 	width: 100%;
-	height: 83.5vh;
+	height:83.5vh;
+}
+h1{
+	text-align:center;
+	font-size: 3vw;
+}
+.box{
+	border: 2px solid #C03526;
+	margin: 1.5vh;
+	padding: 1.5vh;
 }
 .button{
 	background-color: white;
@@ -38,4 +47,7 @@ h1{
 }
 .button:active{
 	background-color: #C03526;
+}
+.text{
+		font-size: 2vw;
 }
