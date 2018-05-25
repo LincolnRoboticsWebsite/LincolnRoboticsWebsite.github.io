@@ -1,11 +1,14 @@
 var slideIndex = 1;
+var clicked = false;
 showSlides(slideIndex);
 carousel();
 function plusSlides(n) {
 	showSlides(slideIndex += n);
+	clicked = true;
 }
 function dispSlide(n) {
 	showSlides(slideIndex = n);
+	clicked = true;
 }
 function showSlides(n) {
 	var i;
@@ -23,6 +26,7 @@ function showSlides(n) {
 	dots[slideIndex - 1].className += " active";
 }
 function carousel() {
+	if (clicked == false) {
 	var i;
 	var slides = document.getElementsByClassName("slide_image");
 	var dots = document.getElementsByClassName("dot");
@@ -41,4 +45,9 @@ function carousel() {
 	
 	showSlides(slideIndex);
 	setTimeout(carousel, 5000);
+	}
+	if (clicked == true) {
+		clicked = false;
+		setTimeout(carousel, 5000);
+	}
 }
