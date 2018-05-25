@@ -89,11 +89,11 @@ body{
 }
 /*End of contact info*/
 /*Animations*/
-@keyframes grow{
+/*@keyframes grow{
 	from {width: 0%}
 	to {width: 100%}
 }
 @keyframes font{
 	from {font-size: 0vh}
 	to {font-size: 3vh}
-}
+}*/
