@@ -21,15 +21,15 @@
 	transform: translateX(-99%);
 	transition: 1s ease;
 }
+.sidebar:hover{
+	transform: translateX(0%);
+}
 #tips_and_tricks{
 	font-size: 2vw;
 	font-weight: 600;
 }
 #tip_or_trick{
 	font-size: 1.2vw;
-}
-.sidebar:hover{
-	transform: translateX(0%);
 }
 /*End of site body setup*/
 /*Start of slideshow CSS*/
@@ -110,3 +110,21 @@
 	50%{transform: translateX(0%)}
 	100%{transform: translateX(-99%)}
 }
+/*End of animations*/
+/* If the screen size is 600px wide or less, stop anims */
+@media only screen and (max-width: 600px) {
+	.dot{
+		height: 5px;
+		width: 5px;
+	}
+	@keyframes slide{
+		from{transform: translateX(0%)}
+		to{transform: translateX(0%)}
+	}
+	.sidebar{
+		transform: translateX(0%)
+	}
+	.sidebar:hover{
+		transform: translateX(0%)
+	}
+  }
