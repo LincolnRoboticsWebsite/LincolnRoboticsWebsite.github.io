@@ -108,7 +108,7 @@
 @keyframes slide{
 	0%{transform: translateX(0%)}
 	50%{transform: translateX(0%)}
-	100%{transform: translateX(-99%)}
+	90%{transform: translateX(-99%)}
 }
 /*End of animations*/
 /* If the screen size is 600px wide or less, stop anims */
