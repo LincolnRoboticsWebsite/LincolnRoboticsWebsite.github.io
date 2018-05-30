@@ -29,7 +29,6 @@
 }
 img{
 	flex-shrink: 0;
-    min-width: 100%;
     min-height: 100%;
 }
 .team_profile{
@@ -49,11 +48,12 @@ img{
 	padding: 5px;
 	display: flex;
 	flex-wrap: row nowrap;
+	width:100%;
 }
 .team_members{
 	padding:1%;
-	width: auto;
 }
 .team_blurb{
 	padding:1%;
+	width:100%;
 }
