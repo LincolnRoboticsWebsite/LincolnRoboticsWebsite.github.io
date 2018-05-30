@@ -31,7 +31,7 @@
 					<br>
 					<p>"Drawer slides can be used as a slide system to 
 					extend your robot past the 18" sizing cube, vertically and horizontally."
-          			<br>-Tucker Hawkey</p>
+          			<br>- Tucker Hawkey</p>
 					<br>
 					<p>"Singing the national anthem louder guarantees a 110% increase in points."
 					<br>- Elias Raider</p>
@@ -41,9 +41,9 @@
 			<!--Start of main body-->
 			<div id = "Home">
 				<br><br>
-				<h1 id = "introText">Lincoln Robotics</h1>
+				<h1 class = "animated" id = "introText" style = "animation-delay: 0.3s;">Lincoln Robotics</h1>
 				<!--Start of slideshow-->
-				<div id = "slideshow">
+				<div class = "animated" id = "slideshow" style = "animation-delay: 0.3s;">
 					<div class = "slide_image fade">
 						<div class = "imagebg"><img class = "slide" src = "media/1.jpg" style = "width: 25.3125vw; height: 33.75vw;"></div>	
 					</div>
@@ -93,7 +93,7 @@
 					<a id = "next" onclick = "plusSlides(1)">&#10095;</a>
 				</div>
 				<br>
-				<div style = "text-align: center;">
+				<div class = "animated" style = "text-align: center; animation-delay: 0.3s;">
 					<span class = "dot" onclick = "dispSlide(1)"></span>
 					<span class = "dot" onclick = "dispSlide(2)"></span>
 					<span class = "dot" onclick = "dispSlide(3)"></span>
@@ -113,10 +113,12 @@
 				<!--End of slideshow-->
 				<br><br><br>
 				<!--Start of calendar-->
-				<h2 id = "calendarText">2018-2019 Season Calendar</h2>
-				<hr style = "margin-left: 13vw; margin-right: 13vw;">
-				<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=lincolnhighschoolrobotics%40gmail.com&amp;color=%231B887A&amp;ctz=America%2FLos_Angeles"
-				style="border-width:0; display: block; margin: 0 auto; margin-top: 1vw;" width = "60%" height = "600" frameborder = "0" scrolling = "no"></iframe>
+				<div class = "animated" style = "animation-delay: 0.5s;">
+					<h2 id = "calendarText">2018-2019 Season Calendar</h2>
+					<hr style = "margin-left: 13vw; margin-right: 13vw;">
+					<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=lincolnhighschoolrobotics%40gmail.com&amp;color=%231B887A&amp;ctz=America%2FLos_Angeles"
+					style="border-width:0; display: block; margin: 0 auto; margin-top: 1vw;" width = "60%" height = "600" frameborder = "0" scrolling = "no"></iframe>
+				</div>
 				<!--End of calendar-->
 				<br><br>	
 			</div>
@@ -124,7 +126,7 @@
 		</div>
 		<!--End of website content-->
 		<!--Start of contact info-->
-		<div id = "contact_info">
+		<div class = "visible" id = "contact_info" style = "animation-delay: 0.3s;">
 			<h1>1600 SW Salmon Street, Portland, OR 97205</h1>
 			<h1>Call us:&ensp;<a id = "phone" href = "tel:9718081371">971-808-1371</a></h1> <!-- same here-->
 			<h1>Email us:&ensp;<a id = "email" href = "mailto:lincolnhighschoolrobotics@gmail.com">lincolnhighschoolrobotics@gmail.com<a/></h1>

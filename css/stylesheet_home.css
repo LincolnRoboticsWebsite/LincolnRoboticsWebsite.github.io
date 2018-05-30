@@ -6,16 +6,25 @@
 	justify-content: space-between;
 }
 #Home{
-	width: 85%;
+	width: 100%;
 	margin-top: 0;
 	margin-bottom: 0;
-	padding-right: 3%;
+	padding-right: 10%;
 }
 .sidebar{
 	width: 10%;
 	padding: 1%;
 	border-right: 1px solid gold;
 	text-align: left;
+	animation-name: slide;
+	animation-duration: 4s;
+	animation-delay: 1.2s;
+	/*animation-timing-function: cubic-bezier(0.30, 1.3, 0.50, 1.1);*/
+	transform: translateX(-99%);
+	transition: 1s ease;
+}
+.sidebar:hover{
+	transform: translateX(0%);
 }
 #tips_and_tricks{
 	font-size: 2vw;
@@ -98,3 +107,27 @@
 	from {opacity: .5}
 	to {opacity: 1}
 }
+@keyframes slide{
+	0%{transform: translateX(-99%)}
+	30%{transform: translateX(0%)}
+	60%{transform: translate(0%)}
+	90%{transform: translateX(-99%)}
+}
+/*End of animations*/
+/* If the screen size is 767px wide or less, stop anims */
+@media only screen and (max-width: 767px) {
+	.dot{
+		height: 5px;
+		width: 5px;
+	}
+	@keyframes slide{
+		from{transform: translateX(0%)}
+		to{transform: translateX(0%)}
+	}
+	.sidebar{
+		transform: translateX(0%)
+	}
+	.sidebar:hover{
+		transform: translateX(0%)
+	}
+  }
