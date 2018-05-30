@@ -23,6 +23,9 @@ time, mark, audio, video, a {
   text-decoration: none;
   font-family:"Arial";
 }
+/*@font-family{
+ Whatever font that Max wants
+}*/
 body{
 	background-color: #e5e5e5;
 }
@@ -36,6 +39,8 @@ body{
 	background-color: #333333;
 	justify-content: space-between;
 	z-index: 9999;
+	animation-name: drop;
+	animation-duration: 0.8s;
 }
 .nav_bar{
 	box-sizing: border-box;
@@ -46,7 +51,6 @@ body{
 	background-color: #333333;	
 	border: 5px double #2a2a2a;
 	transition: 0.3s ease;
-
 	font-size: 3vh;
 	color: white;
 }
@@ -73,3 +77,28 @@ body{
 	color: white;
 }
 /*End of contact info*/
+/*Animations*/
+@keyframes drop{
+	from {transform: translateY(-100%); opacity: 0}
+	to {transform: translateY(0%); opacity: 1}
+}
+@keyframes appear{
+	from {transform: translateY(-8vw); opacity: 0}
+	to {transform: translateY(0vw); opacity: 1}
+}
+@keyframes visibilize{
+	from {opacity: 0}
+	to {opacity: 1}
+}
+.animated{
+	opacity: 0;
+	animation-name: appear;
+	animation-duration: 0.8s;
+	animation-fill-mode: forwards;
+}
+.visible{
+	opacity: 0;
+	animation-name: visibilize;
+	animation-duration: 0.8s;
+	animation-fill-mode: forwards;
+}
