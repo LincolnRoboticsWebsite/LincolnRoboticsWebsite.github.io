@@ -14,6 +14,12 @@
 	justify-content: space-evenly;
 	background-color: #d1d1d1;
 	border: 2px solid #C03526;
+	transition: 1s ease;
+}
+.mentor:hover{
+	margin: 2%;
+	padding: 2%;
+	box-shadow: 10px 10px #A1A1A1;
 }
 .pic{
 	padding: 0;
@@ -48,18 +54,4 @@
 	margin-left: 5%;
 	margin-top: 1%;
 }
-/*.fade{
-	position: absolute;
-	opacity: 0;
-	transform: translateY(-101%);
-}
 /*End of site body setup*/
-/*Animations*/
-/*.fade:hover{
-	animation-name: fade;
-	animation-duration: 15.0s;
-}
-@keyframes fade{
-	from {opacity: 0}
-	to {opacity: 1}
-}*/

@@ -8,11 +8,17 @@
 	display: flex;
 	padding: 1%;
 	margin: 3%;
-	margin-top: 5%;
+	margin-top: 2%;
 	background-color: #d1d1d1;
 	border: 2px solid #C03526;
 	justify-content: space-evenly;
 	padding-right: 0;
+	transition: 1s ease;
+}
+.teams:hover{
+	margin: 2%;
+	padding: 2%;
+	box-shadow: 10px 10px #A1A1A1;
 }
 .team_image{
 	width: 45vw;

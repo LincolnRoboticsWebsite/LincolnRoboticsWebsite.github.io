@@ -48,8 +48,8 @@ body{
 	background-color: #333333;
 	justify-content: space-between;
 	z-index: 9999;
-	animation-name: grow;
-	animation-duration: 0.5s;
+	animation-name: drop;
+	animation-duration: 0.8s;
 }
 .nav_bar{
 	box-sizing: border-box;
@@ -62,8 +62,6 @@ body{
 	transition: 0.3s ease;
 	font-size: 3vh;
 	color: white;
-	animation-name: font;
-	animation-duration: 0.5s;
 }
 .nav_bar:hover{
 	background-color: #000000;
@@ -89,11 +87,27 @@ body{
 }
 /*End of contact info*/
 /*Animations*/
-@keyframes grow{
-	from {transform: translateY(-100%)}
-	to {transform: translateY(0%)}
+@keyframes drop{
+	from {transform: translateY(-100%); opacity: 0}
+	to {transform: translateY(0%); opacity: 1}
 }
-/*@keyframes font{
-	from {font-size: 0vh}
-	to {font-size: 3vh}
-}*/
+@keyframes appear{
+	from {transform: translateY(-8vw); opacity: 0}
+	to {transform: translateY(0vw); opacity: 1}
+}
+@keyframes visibilize{
+	from {opacity: 0}
+	to {opacity: 1}
+}
+.animated{
+	opacity: 0;
+	animation-name: appear;
+	animation-duration: 0.8s;
+	animation-fill-mode: forwards;
+}
+.visible{
+	opacity: 0;
+	animation-name: visibilize;
+	animation-duration: 0.8s;
+	animation-fill-mode: forwards;
+}
