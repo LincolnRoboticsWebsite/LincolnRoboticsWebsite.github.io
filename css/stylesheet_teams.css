@@ -19,10 +19,10 @@
 	padding: 0.5%;
 }
 .team_image > img{
-	width: 100%;
-	height: 100%;
+	height: 35vh;
+	max-width: 100%;
 }
-.team_description1{
+.team_profile{
 	display: flex;
 	flex-wrap: wrap;
 	align-items: flex-start;
@@ -34,23 +34,22 @@
 	display: flex;
 	align-items: flex-start;
 	padding-top: 0;
+	font-size: 1.5vw;
 }
-.team_description1 > h1{
+.title{
 	color: #C03526;
 	font-size: 2.5vw;
 	text-align: center;
 	width: 100%;
 	margin-top: 3%;
 }
-.team_description > ul{
-	width: 14vw;
-	margin-left: 4%;
-	padding-top: 1%;
+.team_members{
+	width: 50vw;
 	font-size: 1.5vw;
-}
-.team_description > p{
 	padding: 1%;
-	padding-top: 0.5%;
+}
+.team_blurb{
+	padding: 1%;
 	font-size: 1.6vw;
 	color: black;
 }
