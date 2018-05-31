@@ -9,7 +9,10 @@ NOTES
 - get pic of bob and actually write something
 - figure out what we actually need to buy for next year
   - add schoolpay link + contact to volunteer
-- 
-
+- comment the bejesus out of the code so everyone can see whats happening
+  - futureproofing for when all current website people are gone
+  - transparency
+- figure out custom domain emails
+  - mcqueen wants it 
 
 
