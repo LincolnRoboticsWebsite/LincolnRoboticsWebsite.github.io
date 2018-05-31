@@ -17,14 +17,11 @@
 	border-right: 1px solid gold;
 	text-align: left;
 	animation-name: slide;
-	animation-duration: 4s;
+	animation-duration: 1s;
 	animation-delay: 1.2s;
+	animation-fill-mode: forwards;
 	/*animation-timing-function: cubic-bezier(0.30, 1.3, 0.50, 1.1);*/
 	transform: translateX(-99%);
-	transition: 1s ease;
-}
-.sidebar:hover{
-	transform: translateX(0%);
 }
 #tips_and_tricks{
 	font-size: 2vw;
@@ -51,7 +48,7 @@
 	width: auto;
 	margin-top: -22px;
 	padding: 16px;
-	color: white;
+	color: black;
 	font-weight: bold;
 	font-size: 18px;
 	transition: 0.6s ease;
@@ -78,7 +75,7 @@
 .imagebg{
 	width: 100%;
 	height: 33.75vw;
-	background-color: #4c4c4c;
+	background-color: #e5e5e5;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -109,25 +106,13 @@
 }
 @keyframes slide{
 	0%{transform: translateX(-99%)}
-	30%{transform: translateX(0%)}
-	60%{transform: translate(0%)}
-	90%{transform: translateX(-99%)}
+	100%{transform: translateX(0%)}
 }
 /*End of animations*/
-/* If the screen size is 767px wide or less, stop anims */
+/* If the screen size is 767px wide or less */
 @media only screen and (max-width: 767px) {
 	.dot{
 		height: 5px;
 		width: 5px;
-	}
-	@keyframes slide{
-		from{transform: translateX(0%)}
-		to{transform: translateX(0%)}
-	}
-	.sidebar{
-		transform: translateX(0%)
-	}
-	.sidebar:hover{
-		transform: translateX(0%)
 	}
   }
