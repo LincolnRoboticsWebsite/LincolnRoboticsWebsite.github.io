@@ -1,5 +1,5 @@
 # LincolnRoboticsWebsite.github.io
-NOTES
+NOTES/TO DO/SUGGESTIONS FROM MAX
 - add scroll bar to events box
   - keep the word event static but have the rest of the box able to scroll up/down when we have more events.
 - fix scout files so one isnt purple and the other isnt blue
@@ -14,5 +14,11 @@ NOTES
   - transparency
 - figure out custom domain emails
   - mcqueen wants it 
+- bold names of outreach events
+- maybe simplify outreach events into 2017, 2018 categories
+  - where the scroll bar comes in handy (idk if this is possible but it would be cool)
+- figure out how to scale spreadsheet on donate page so it doesnt have to be scrolled on diff size screens
+- mobile version?
+
 
 
