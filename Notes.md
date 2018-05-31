@@ -6,7 +6,7 @@ NOTES
    - it just is idk why
 - add other teams
 - add goodbye part to tinlings page
--get pic of bob and actually write something
+- get pic of bob and actually write something
 - figure out what we actually need to buy for next year
   - add schoolpay link + contact to volunteer
 - 
