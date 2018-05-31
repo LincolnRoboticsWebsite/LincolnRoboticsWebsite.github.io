@@ -2,8 +2,8 @@
 NOTES
 - add scroll bar to events box
   - keep the word event static but have the rest of the box able to scroll up/down when we have more events.
-- fix scout files so one isnt purple
-   - it just is and idk why
+- fix scout files so one isnt purple and the other isnt blue
+   - it just is idk why
 - add other teams
 - add goodbye part to tinlings page
 -get pic of bob and actually write something
