@@ -102,3 +102,6 @@ body{
 	animation-duration: 0.8s;
 	animation-fill-mode: forwards;
 }
+#last{
+	margin-bottom: 5vh;
+}
