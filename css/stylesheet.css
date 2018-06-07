@@ -1,3 +1,10 @@
+@font-face {
+    font-family: robotoL;
+    src: url('../fonts/Roboto-Light.ttf') format('truetype'),
+	 url('../fonts/Roboto-Light.WOFF') format('WOFF'),
+	 url('../fonts/Roboto-Light.woff2') format('woff2');
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -20,8 +27,9 @@ time, mark, audio, video, a {
   
   /*Lincoln red color: #C03526;*/
   
-  text-decoration: none;
-  font-family:"Arial";
+text-decoration: none;
+  font-family:"robotoL";
+
 }
 /*@font-family{
  Whatever font that Max wants
