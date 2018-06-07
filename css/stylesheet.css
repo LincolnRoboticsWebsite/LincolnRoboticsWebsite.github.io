@@ -37,27 +37,35 @@ body{
 	position: sticky;
 	width: 100%;
 	background-color: #333333;
-	justify-content: space-between;
+	justify-content: flex-end;
 	z-index: 9999;
 	animation-name: drop;
 	animation-duration: 0.8s;
 }
 .nav_bar{
 	box-sizing: border-box;
-	width: 20vw;
-	padding-top: 1vh;
-	padding-bottom: 1vh;
+	width: 12vw;
+	padding-top: 1.95vh;
+	padding-bottom: 1.95vh;
 	text-align: center;
 	background-color: #333333;	
-	border: 5px double #2a2a2a;
 	transition: 0.3s ease;
-	font-size: 3vh;
+	font-size: 2.2vh;
 	color: white;
 }
 .nav_bar:hover{
 	background-color: #000000;
 	border-color: #000000;
 	cursor: pointer;
+}
+#home{
+	position: absolute;
+	left: 0;
+}
+#home:hover{
+	cursor: pointer;
+	background-color: #333333;
+	border-color: #333333;
 }
 /*End of navbar CSS*/
 /*Start of contact info*/
