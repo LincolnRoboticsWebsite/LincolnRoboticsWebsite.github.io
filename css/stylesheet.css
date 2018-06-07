@@ -19,10 +19,9 @@ time, mark, audio, video, a {
   vertical-align: baseline;
   
   /*Lincoln red color: #C03526;*/
-  @font-face {
-  text-decoration: none;
-  font-family:'Roboto', sans-serif;
-  src: url(roboto-light.ttf);
+  
+text-decoration: none;
+  font-family:"Arial";
 
 }
 /*@font-family{
