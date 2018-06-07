@@ -1,7 +1,8 @@
 @font-face {
     font-family: robotoL;
-    src: url(../fonts/Roboto-Light.WOFF);
-	url(../fonts/Roboto-Light.WOFF2);
+    src: url('../fonts/Roboto-Light.ttf') format('truetype'),
+	 url('../fonts/Roboto-Light.WOFF') format('WOFF'),
+	 url('../fonts/Roboto-Light.woff2') format('woff2');
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/ */
