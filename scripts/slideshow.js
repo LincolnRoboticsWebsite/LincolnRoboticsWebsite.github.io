@@ -1,7 +1,9 @@
 var slideIndex = 1;
 var clicked = false;
-showSlides(slideIndex);
+
+dispSlide(1);
 carousel();
+
 function plusSlides(n) {
 	showSlides(slideIndex += n);
 	clicked = true;
