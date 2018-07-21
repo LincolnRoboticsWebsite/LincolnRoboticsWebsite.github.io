@@ -44,6 +44,9 @@ h1{
 	background-color: white;
 	color: black;
 }
+.button > a{
+	color: black;
+}
 .button:hover{
 	background-color: #d1d1d1;
 }
