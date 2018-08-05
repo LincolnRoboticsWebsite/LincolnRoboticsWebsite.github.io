@@ -13,8 +13,11 @@ NOTES/TO DO/SUGGESTIONS FROM MAX
 - figure out custom domain emails
   - mcqueen wants it 
 - bold names of outreach events
+- flip outreach list so that most recent is first
 - figure out how to scale spreadsheet on donate page so it doesnt have to be scrolled on diff size screens
 - mobile version?
-
+- big boy parent zone™
+   - click/drag from side, refreshes page into a new .html file
+ <b> - from now on people should put their name on their commits from the LHSWebsite account so its clear what people are working on </b>
 
 
