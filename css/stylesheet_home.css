@@ -26,6 +26,7 @@
 #tips_and_tricks{
 	font-size: 1.5vw;
 	font-weight: 100;
+	text-align: center;
 }
 #tip_or_trick{
 	font-size: 1.2vw;
@@ -34,6 +35,7 @@
 #for_parent_title{
 	font-size: 1.5vw;
 	font-weight: 100;
+	text-align: center;
 }
 #for_parent_text{
 	font-size: 1.2vw;
