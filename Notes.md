@@ -18,6 +18,6 @@ NOTES/TO DO/SUGGESTIONS FROM MAX
 - mobile version?
 - big boy parent zone™
    - click/drag from side, refreshes page into a new .html file
- <b> - from now on people should put their name on their commits from the LHSWebsite account so its clear what people are working on </b>
+- <b> from now on people should put their name on their commits from the LHSWebsite account so its clear what people are working on </b>
 
 
