@@ -14,7 +14,7 @@
 .sidebar{
 	width: 10%;
 	padding: 1%;
-	border-right: 1px solid gold;
+	border-right: 1px solid darkred;
 	text-align: left;
 	animation-name: slide;
 	animation-duration: 1s;
@@ -30,6 +30,15 @@
 #tip_or_trick{
 	font-size: 1.2vw;
 }
+
+#for_parent_title{
+	font-size: 1.5vw;
+	font-weight: 100;
+}
+#for_parent_text{
+	font-size: 1.2vw;
+}
+
 /*End of site body setup*/
 /*Start of slideshow CSS*/
 #slideshow{
