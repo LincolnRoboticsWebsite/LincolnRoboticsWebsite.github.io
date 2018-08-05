@@ -26,8 +26,6 @@
 #tips_and_tricks{
 	font-size: 1.5vw;
 	font-weight: 100;
-	overflow-y:scroll;
-	overflow-x:visible;
 }
 #tip_or_trick{
 	font-size: 1.2vw;
