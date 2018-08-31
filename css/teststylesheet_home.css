@@ -99,9 +99,9 @@
 	transform: translate(-100%, -50%);
 	z-index: 10;
 	padding: 0;
+	cursor: pointer;
 }
 #zoneheader{
-	cursor: pointer;
 	color: #aaa;
 }
 
