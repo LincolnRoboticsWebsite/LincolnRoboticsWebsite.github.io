@@ -27,7 +27,7 @@ function dragElement(elmnt) {
     pos3 = e.clientX;
     if (elmnt.offsetLeft - pos1 > window.innerWidth - 17) {
       elmnt.style.left = (window.innerWidth - 17) + "px";
-    } else{
+    } else {
       // set the element's new position:
       elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
     }
