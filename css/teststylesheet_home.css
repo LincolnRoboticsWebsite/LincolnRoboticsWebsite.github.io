@@ -1,3 +1,7 @@
+body{
+	overflow-x: hidden;
+}
+
 /*Lincoln red color: #C03526;*/
 /*Start of site body setup*/
 #site_body{
@@ -97,12 +101,22 @@
 	top: 50%;
 	left: 100%;
 	transform: translate(-100%, -50%);
-	z-index: 10;
+	z-index: 10000;
 	padding: 0;
 	cursor: pointer;
 }
 #zoneheader{
 	color: #aaa;
+}
+#zonefollow{
+	height: 100%;
+	width: 100%;
+	left: 100%;
+	top: 50%;
+	transform: translateY(-50%);
+	background-color: #f1f1f1;
+	position: absolute;
+	z-index: 10000;
 }
 
 /*Yes, it's the zone*/
