@@ -46,7 +46,7 @@ function dragElement(elmnt) {
       var pos = elmnt.offsetLeft;
       if(elmnt.offsetLeft <= 0){
         clearInterval(q);
-        window.location = "file:///C:/Users/zhaoj/Documents/GitHub/LincolnRoboticsWebsite.github.io/parenttest.html";
+        window.location = "lincolnrobotics.com/parenttest.html";
       }
       else {
         pos -= 5;
