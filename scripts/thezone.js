@@ -27,8 +27,17 @@ function dragElement(elmnt) {
     // calculate the new cursor position:
     pos1 = pos3 - e.clientX;
     pos3 = e.clientX;
+<<<<<<< HEAD
     elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
     offset();
+=======
+    if (elmnt.offsetLeft - pos1 > window.innerWidth - 17) {
+      elmnt.style.left = (window.innerWidth - 17) + "px";
+    } else {
+      // set the element's new position:
+      elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+    }
+>>>>>>> b67c460359f9165d5bc7d1a848da186fb2127636
   }
 
   function closeDragElement() {
