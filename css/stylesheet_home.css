@@ -95,7 +95,7 @@ body{
 
 #zone{
 	position: absolute;
-	background-color: #f1f1f1;
+	background-color: #C03526;
 	text-align: center;
 	height: 100px;
 	width: 100px;
@@ -107,7 +107,13 @@ body{
 	cursor: pointer;
 }
 #zoneheader{
-	color: #aaa;
+	color: #f1f1f1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 20px;
+	line-height: 30px;
 }
 #zonefollow{
 	height: 100%;
@@ -115,7 +121,7 @@ body{
 	left: 100%;
 	top: 50%;
 	transform: translateY(-50%);
-	background-color: #f1f1f1;
+	background-color: #C03526;
 	position: absolute;
 	z-index: 10000;
 }
