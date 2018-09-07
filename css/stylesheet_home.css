@@ -1,3 +1,7 @@
+body{
+	overflow-x: hidden;
+}
+
 /*Lincoln red color: #C03526;*/
 /*Start of site body setup*/
 #site_body{
@@ -29,15 +33,6 @@
 	text-align: center;
 }
 #tip_or_trick{
-	font-size: 1.2vw;
-}
-
-#for_parent_title{
-	font-size: 1.5vw;
-	font-weight: 100;
-	text-align: center;
-}
-#for_parent_text{
 	font-size: 1.2vw;
 }
 
@@ -95,6 +90,38 @@
 	background-color: #717171;
 }
 /*End of slideshow CSS*/
+
+/*Oh my god... Is that the zone?*/
+
+#zone{
+	position: absolute;
+	background-color: #f1f1f1;
+	text-align: center;
+	height: 100px;
+	width: 100px;
+	top: 50%;
+	left: 100%;
+	transform: translate(-100%, -50%);
+	z-index: 10000;
+	padding: 0;
+	cursor: pointer;
+}
+#zoneheader{
+	color: #aaa;
+}
+#zonefollow{
+	height: 100%;
+	width: 100%;
+	left: 100%;
+	top: 50%;
+	transform: translateY(-50%);
+	background-color: #f1f1f1;
+	position: absolute;
+	z-index: 10000;
+}
+
+/*Yes, it's the zone*/
+
 /*Start of text CSS*/
 #introText{
 	text-align: center;
