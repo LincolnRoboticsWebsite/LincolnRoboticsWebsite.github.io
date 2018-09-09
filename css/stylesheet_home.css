@@ -44,6 +44,12 @@ body{
 	position: relative;
 	margin: auto;
 	margin-top: 5vh;
+	
+#gamevid{
+	width: 50vw;
+	position: relative;
+	margin: auto;
+	margin-top: 5vh;
 }
 .slide_image{
 	display: none;
