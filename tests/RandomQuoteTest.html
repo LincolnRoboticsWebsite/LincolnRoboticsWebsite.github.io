@@ -1,0 +1,21 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<title>Random Message</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<script type="text/javascript">
+	var msgArr = new Array();
+	msgArr[0] = "Message 1...";
+	msgArr[1] = "Message 2...";
+	msgArr[2] = "Message 3..."
+	window.onload = function () {
+		document.getElementById("msgDiv").innerHTML = msgArr[Math.floor(Math.random()*msgArr.length)];
+	}
+</script>
+</head>
+
+<body>
+<div id="msgDiv"></div>
+</body>
+</html>
