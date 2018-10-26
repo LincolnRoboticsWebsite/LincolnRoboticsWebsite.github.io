@@ -20,7 +20,7 @@ function dragElement(elmnt) {
       var pos = elmnt.offsetLeft;
       if(elmnt.offsetLeft <= 0){
         clearInterval(q);
-        window.location = "parenttest.html";
+        window.location = "tests/testparent.html";
       }
       else {
         pos -= 5;
